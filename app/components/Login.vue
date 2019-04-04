@@ -1,13 +1,13 @@
 <template lang='pug'>
   Page(actionBarHidden="true" class="page")
-    StackLayout(horizontalAlignment="center" verticalAlignment="middle" width="300")
+    StackLayout(v-loading="loggingIn" :loading-options="{ text: 'Please wait...' }" horizontalAlignment="center" verticalAlignment="middle" width="300")
       Image(src="res://logo" height="250" fill="aspectFill")
-      Textfield(:isEnabled="!loggingIn" v-model="email" class="input" hint="E-mail Address" keyboardType="email" autocorrect="false" autocapitalizationType="none")
-      Textfield(:isEnabled="!loggingIn" v-model="password" class="input" hint="Password" secure=true autocorrect="false" autocapitalizationType="none")
+      Textfield(v-model="email" class="input" hint="E-mail Address" keyboardType="email" autocorrect="false" autocapitalizationType="none")
+      Textfield(v-model="password" class="input" hint="Password" secure=true autocorrect="false" autocapitalizationType="none")
 
       GridLayout(rows="*" columns="*,*" height="50")
-        Button(disabled=true row="0" col="0" text="Log In" backgroundColor="#09cefd" color="#01647c" @tap="logIn(email, password)")
-        Button(:isEnabled="!loggingIn" row="0" col="1" text="Sign Up" backgroundColor="#f6d624" color="#786705" @tap="signUp()")
+        Button(row="0" col="0" text="Log In" backgroundColor="#09cefd" color="#01647c" @tap="logIn(email, password)")
+        Button(row="0" col="1" text="Sign Up" backgroundColor="#f6d624" color="#786705" @tap="signUp()")
 
       Label(text="Forgot your password?" horizontalAlignment="center")
 

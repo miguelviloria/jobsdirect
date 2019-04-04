@@ -19,18 +19,19 @@
     "nativescript-theme-core": "~1.0.4",
     "nativescript-ui-listview": "~5.1.0",
     "nativescript-vue": "~2.0.0",
+    "nativescript-vue-multi-drawer": "0.0.2",
     "pug": "2.0.3",
     "pug-plain-loader": "1.0.0",
-    "tns-core-modules": "~5.2.0"
+    "tns-core-modules": "5.3.1"
   },
   "devDependencies": {
-    "@babel/core": "~7.1.0",
-    "@babel/preset-env": "~7.1.0",
-    "babel-loader": "~8.0.0",
-    "nativescript-dev-webpack": "~0.20.0",
-    "nativescript-vue-template-compiler": "~2.0.0",
-    "node-sass": "~4.9.0",
-    "vue-loader": "~15.4.0"
+    "@babel/core": "7.4.3",
+    "@babel/preset-env": "7.4.3",
+    "babel-loader": "8.0.5",
+    "nativescript-dev-webpack": "0.21.0",
+    "nativescript-vue-template-compiler": "2.2.0",
+    "node-sass": "4.11.0",
+    "vue-loader": "15.7.0"
   },
   "gitHead": "f548ec926e75201ab1b7c4a3a7ceefe7a4db15af",
   "readme": "NativeScript Application"

@@ -6,6 +6,7 @@ import Vue from "nativescript-vue";
 import RadListView from "nativescript-ui-listview/vue";
 
 Vue.use(RadListView);
+Vue.registerElement('RadSideDrawer', () => require('nativescript-ui-sidedrawer').RadSideDrawer);
 
 Vue.config.silent = (TNS_ENV === 'production');
 
