@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "172680849849",
+    "firebase_url": "https://jobsdirect-50898.firebaseio.com",
+    "project_id": "jobsdirect-50898",
+    "storage_bucket": "jobsdirect-50898.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172680849849:android:3aee7de1cd89f0a3",
+        "android_client_info": {
+          "package_name": "org.nativescript.JobsDirect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkKm4Wq0p2-i3Cm96wo8hG4nPf53mr9io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172680849849-1m1ejpgk3oi9jeo3tqa0f547b8rrujia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
