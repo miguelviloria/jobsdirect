@@ -4,9 +4,16 @@ import config from "./shared/firebase-config";
 import Vue from "nativescript-vue";
 
 import RadListView from "nativescript-ui-listview/vue";
+import RadSideBar from "nativescript-ui-sidedrawer/vue";
 
+
+// Best drawer plugin, but inconsistent.
+// import MultiDrawer from "nativescript-vue-multi-drawer";
+// Vue.use(MultiDrawer);
+
+Vue.use(RadSideBar);
 Vue.use(RadListView);
-Vue.registerElement('RadSideDrawer', () => require('nativescript-ui-sidedrawer').RadSideDrawer);
+
 
 Vue.config.silent = (TNS_ENV === 'production');
 
