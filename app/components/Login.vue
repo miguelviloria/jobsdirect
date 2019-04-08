@@ -12,6 +12,7 @@
       Label(text="Forgot your password?" horizontalAlignment="center")
 
 
+
 </template>
 
 <script lang='coffee'>
@@ -19,14 +20,22 @@
   import SignUp from './SignUp'
   import HomeApplicant from './HomeApplicant'
   import HomeEmployer from './HomeEmployer'
+  import * as enums from 'ui/enums'
   export default
     data: ->
       title: 'JobsDirect'
       loggingIn: false
-      email: ''
-      password: ''
+      email: 'grim.shadow.2@gmail.com'
+      password: 'test01'
 
     methods:
+      # startUp: ->
+      #   this.$refs.startUi.nativeView
+      #     .animate({
+      #       translate: { x: 0, y: -90 },
+      #       duration: 500,
+      #       curve: enums.AnimationCurve.easeIn })
+
       signUp: ->
         @$navigateTo(SignUp)
 

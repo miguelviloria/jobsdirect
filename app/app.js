@@ -6,7 +6,6 @@ import Vue from "nativescript-vue";
 import RadListView from "nativescript-ui-listview/vue";
 import RadSideBar from "nativescript-ui-sidedrawer/vue";
 
-
 // Best drawer plugin, but inconsistent.
 // import MultiDrawer from "nativescript-vue-multi-drawer";
 // Vue.use(MultiDrawer);
