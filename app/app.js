@@ -12,7 +12,7 @@ import RadSideBar from "nativescript-ui-sidedrawer/vue";
 
 Vue.use(RadSideBar);
 Vue.use(RadListView);
-
+Vue.registerElement("DropDown", () => require("nativescript-drop-down/drop-down").DropDown);
 
 Vue.config.silent = (TNS_ENV === 'production');
 
